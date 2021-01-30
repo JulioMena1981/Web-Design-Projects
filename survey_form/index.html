@@ -23,9 +23,9 @@
                 <input type="email" placeholder="Enter your Email" required id="email"><br>
 
                 <label for="age" id="number-label">Age (optional)</label><br>
-                <input type="number" placeholder="Age" id="number" min="16" max="65"><br>
+                <input type="number" placeholder="Age" id="age" min="16" max="65"><br>
 
-                <p>Which option best describes your current role?</p><br>
+                <p class="title-dropdown">Which option best describes your current role?</p><br>
                 <select name="role" id="dropdown">
                     <option selected value="0">Select curent role</option>
                     <option value="">Student</option>
@@ -36,51 +36,51 @@
                 </select>
                 <br>
 
-                <p>Would you recommend academy to a friend?</p><br>
+                <p class="title-radio">Would you recommend academy to a friend?</p><br>
                 <input name="definitely" type="radio" id="definitely" value="definitely">
-                <label for="">Definitely</label><br>
-                <input name="definitely" type="radio" name="maybe" value="maybe">
-                <label for="">Maybe</label><br>
-                <input name="definitely" type="radio" name="notsure" value="notsure">
-                <label for="">Not sure</label>
+                <label>Definitely</label><br>
+                <input type="radio" name="maybe" value="maybe" id="maybe">
+                <label>Maybe</label><br>
+                <input type="radio" name="notsure" value="notsure" id="notsure">
+                <label>Not sure</label>
                 <br>
 
-                <p>What is your favorite feature of academy?</p><br>
+                <p class="title-option">What is your favorite feature of academy?</p><br>
                 <select name="favorite" id="favorite">
                     <option selected value="0">Select an option</option>
-                    <option value="">Challenges</option>
-                    <option value="">Projects</option>
+                    <option>Challenges</option>
+                    <option>Projects</option>
                     <option>Community</option>
-                    <option value="">Open Source</option>
+                    <option>Open Source</option>
                 </select>
                 <br>
 
-                <p>What would you like to see improved? (Check all that apply)</p><br>
+                <p class="title-checkbox">What would you like to see improved? (Check all that apply)</p><br>
                 <input type="checkbox" value="frontend">
-                <label for="">Front-end Projects</label><br>
+                <label>Front-end Projects</label><br>
                 <input type="checkbox" value="backend">
-                <label for="">Back-end Projects</label><br>
+                <label>Back-end Projects</label><br>
                 <input type="checkbox" value="data">
-                <label for="">Data Visualization</label>
+                <label>Data Visualization</label><br>
                 <input type="checkbox" value="challenges">
-                <label for="">Challenges</label><br>
+                <label>Challenges</label><br>
                 <input type="checkbox" value="opensource">
-                <label for="">Open Source Community</label><br>
+                <label>Open Source Community</label><br>
                 <input type="checkbox" value="gitter">
-                <label for="">Gitter help rooms</label><br>
+                <label>Gitter help rooms</label><br>
                 <input type="checkbox" value="videos">
-                <label for="">Videos</label><br>
+                <label>Videos</label><br>
                 <input type="checkbox" value="meetups">
-                <label for="">City Meetups</label><br>
+                <label>City Meetups</label><br>
                 <input type="checkbox" value="wiki">
-                <label for="">Wiki</label><br>
+                <label>Wiki</label><br>
                 <input type="checkbox" value="forum">
-                <label for="">Forum</label><br>
+                <label>Forum</label><br>
                 <input type="checkbox" value="courses">
-                <label for="">Additional Courses</label><br>
+                <label>Additional Courses</label><br>
 
-                <p>Any comments or suggestions?</p><br>
-                <textarea name="comments" id="" cols="30" rows="10"></textarea><br>
+                <p class="title-textarea">Any comments or suggestions?</p><br>
+                <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Enter your comment here..."></textarea><br>
 
                 <button id="submit">Submit</button>
             </form>

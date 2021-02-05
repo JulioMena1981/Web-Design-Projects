@@ -1,0 +1,32 @@
+.title{
+    font-size: 25px;
+    margin-left: 110px;
+}
+
+#header-img{
+    position: fixed;
+    float: left;
+    top: 0;
+    left: ;: 0;
+}
+
+#nav-bar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#nav-bar ul{
+    list-style-type: none;
+    float: right;
+}
+
+#nav-bar ul li{
+    display: inline;
+    margin: 24px;
+}
+
+.nav-link{
+    text-decoration: none;
+}
